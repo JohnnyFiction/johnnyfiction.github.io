@@ -1,0 +1,159 @@
+/* Global Styles */
+* {
+	font-family: "Courier Prime", sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+  
+body {
+	font-size: 20px;
+	line-height: 1.5;
+	background-image: url("/resources/images/JohnnyFiction_curcuit_board_man_synthesizers_93a9e301-5c08-4d18-9d5c-6d4aa7b2bd08.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: whitesmoke;
+}
+
+.background-filter {
+	background-color: orange;
+  	background-blend-mode: multiply;
+}
+/* Header Styles */
+header {
+	
+	justify-content: space-between;
+	align-items: center;
+	background-color: #423f42;	
+	padding: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	background-image: url("/resources/images/JohnnyFiction_background_pattern_circuitboard_tiling_fractal_oc_723f4072-bd45-468d-8d72-b01343e6c800.png");
+	background-repeat: repeat-x;
+	z-index: 10;
+}
+
+.background-tint {
+	background-color: rgba(34, 25, 15, 0.5);
+  	background-blend-mode: multiply;
+}
+  
+.intro {
+	font-size: 60px;
+	font-weight: bold;
+	color: whitesmoke;
+	margin: 10px;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+	background-image: url("/resources/imagesJohnnyFiction_background_pattern_circuitboard_tiling_fractal_oc_723f4072-bd45-468d-8d72-b01343e6c800.png");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+  
+nav li {
+	margin-left: 20px;
+}
+  
+nav a {
+	color: whitesmoke;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 5px;
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+  
+nav a:hover {
+	color: palevioletred;
+	background-color: whitesmoke;
+	font-weight: bold;
+}
+  
+/* Main Styles */
+main {
+	max-width: 864px;
+	margin: 0 auto;
+	padding: 40px;
+}
+  
+section {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.text-contrast {
+	background-color: rgba(29, 57, 88, 0.7);
+  	background-blend-mode:darken;
+}
+
+.social-links {
+	text-align: center;
+	margin: auto;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	bottom: 20px;
+	margin-bottom: 20px;
+}
+  
+.social-icon-resize {
+	width: 50px;
+	height: auto;
+}
+
+/* Footer Styles */
+
+footer {
+	background-color: #333333;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	font-size: 14px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+  
+/* Font Styles */
+@font-face {
+	font-family: 'Courier Prime';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/courierprime/v7/u-4n0q2lgwslOqpF_6gQ8kELawRZWMf6.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+	font-family: 'Courier Prime';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/courierprime/v7/u-4i0q2lgwslOqpF_6gQ8kELawRR4-Lvqdns.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+	font-family: 'Courier Prime';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/courierprime/v7/u-450q2lgwslOqpF_6gQ8kELawFpWg.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+	font-family: 'Courier Prime';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/courierprime/v7/u-4k0q2lgwslOqpF_6gQ8kELY7pMT-Dfqw.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
